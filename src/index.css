@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.container {
+  height: 100vh;
+  background: #fad7d7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 85%;
+  width: 30%;
+  background: #ffffff;
+  border: 5px solid #fd9898;
+  border-radius: 2rem;
+  box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.1)
+
+}
+
+.main h3 {
+  text-align: end;
+  padding: 2rem 1.5rem 0.5rem 0;
+  color: #f09b9b;
+}
+
+.main .result {
+  background: #fd9898;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  border-radius: 5px;
+
+}
+
+.main .result h1 {
+  text-align: end;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.buttons {
+  height: 60%;
+  display: grid;
+  gap: 1px;
+  grid-template-rows: 1fr 1fr 1fr 2fr;
+  margin: 1.5rem;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons .last-row{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background: #000;   
+}
+
+
+
+.last-row .numbers {
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+} 
+.rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.equal {
+ display: grid;
+} 
+.equal button{
+  background: #fad7d7;
+}
+
+
+button {
+  background-color: white;
+  border: none;
+}
